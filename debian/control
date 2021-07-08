@@ -12,7 +12,26 @@ Maintainer: Jesse Larrew <jesse.larrew@amd.com>
 # Pre-Depends: <comma-separated list of packages>
 Depends: linux-image-5.13.0-rc1-sev-es-snp,
          linux-headers-5.13.0-rc1-sev-es-snp,
-         linux-libc-dev
+         linux-libc-dev (= 5.13.0-rc1-sev-es-snp-1),
+         sev-firmware (= 1.28-1amd1.0),
+         libblkid1,
+         libc6,
+         libffi7,
+         libgcc-s1,
+         libglib2.0-0,
+         libmount1,
+         libpcre2-8-0,
+         libpcre3,
+         libpixman-1-0,
+         libselinux1,
+         libxendevicemodel1,
+         libxenevtchn1,
+         libxenforeignmemory1,
+         libxengnttab1,
+         libxenmisc4.11,
+         libxenstore3.0,
+         libxentoolcore1,
+         zlib1g,
 # Recommends: <comma-separated list of packages>
 # Suggests: <comma-separated list of packages>
 # Provides: <comma-separated list of packages>
