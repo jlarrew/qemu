@@ -7,8 +7,8 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: qemu-sev-es-snp
-# Version: 5.1.94
-Maintainer: Brijesh Singh <brijesh.singh@amd.com>
+Version: 5.1.94-1amd1.0
+Maintainer: Jesse Larrew <jesse.larrew@amd.com>
 # Pre-Depends: <comma-separated list of packages>
 Depends: linux-image-5.13.0-rc1-sev-es-snp,
          linux-headers-5.13.0-rc1-sev-es-snp,

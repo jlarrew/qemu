@@ -1,4 +1,4 @@
-qemu-sev-es-snp (1:5.1.94-1ubuntu7.0) UNRELEASED; urgency=medium
+qemu-sev-es-snp (1:5.1.94-1amd1.0) UNRELEASED; urgency=medium
 
   [ Tobin Feldman-Fitzthum ]
   * sev: add sev-inject-launch-secret
