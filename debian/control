@@ -15,7 +15,7 @@ Depends: linux-image-5.13.0-rc1-sev-es-snp,
          linux-libc-dev
 # Recommends: <comma-separated list of packages>
 # Suggests: <comma-separated list of packages>
-Provides: qemu-system-x86-sev-es-snp
+# Provides: <comma-separated list of packages>
 # Replaces: <comma-separated list of packages>
 Architecture: amd64
 Multi-Arch: same
