@@ -42,4 +42,4 @@ Description: QEMU full system emulation binaries (x86) for AMD Confidential Comp
  On x86 host hardware this package also enables KVM kernel virtual machine
  usage with AMD SEV-SNP on systems which support it.
 
-Files: ../kvm.conf /etc/modprobe.d,
+Files: ../kvm.conf /etc/modprobe.d
